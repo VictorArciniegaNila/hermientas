@@ -33,7 +33,7 @@ $db = mysqli_select_db($conexion, $basededatos) or die ("Error conexion al conec
     if(!$ejecutar){
         echo"huvo algun error"; //si algo sale mal mandanos este mensaje
     }else{
-        echo"datos guardado correctamente <br><a href='/indexx.html'>volver</a>"; //si todo sale bien mandanos este mensaje
+        echo"datos guardado correctamente <br><a href='/index.html'>volver</a>"; //si todo sale bien mandanos este mensaje
     }
      
 ?>﻿
